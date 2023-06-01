@@ -1,25 +1,21 @@
 {
-  "name": "bot-discord",
+  "name": "discord-js-handler-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "Discord.js Command and Event Handler Template with example Command usages!",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./src/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://NapoTwiixe306:glpat-_aBkxVQnoPfwbx6EKjz5@gitlab.com/cryptoextension/cryptoextension-bot-discord.git"
-  },
-  "keywords": [],
-  "author": "",
+  "author": "Tomato#6966 (author of this template)",
   "license": "ISC",
-  "bugs": {
-    "url": "https://gitlab.com/cryptoextension/cryptoextension-bot-discord/issues"
-  },
-  "homepage": "https://gitlab.com/cryptoextension/cryptoextension-bot-discord#readme",
   "dependencies": {
-    "discord.js": "^14.7.1",
-    "dotenv": "^16.0.3",
-    "nodemon": "^2.0.22"
+    "ascii-table": "0.0.9",
+    "discord.js": "^12.5.1",
+    "dotenv": "^16.1.3"
+  },
+  "devDependencies": {
+    "ascii-table": "0.0.9",
+    "colors": "^1.4.0"
   }
 }
